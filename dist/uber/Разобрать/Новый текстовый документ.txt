@@ -1,0 +1,121 @@
+
+PS C:\Users\235\Desktop\project — копия\src> git add -A
+PS C:\Users\235\Desktop\project — копия\src> git status
+On branch master
+
+No commits yet
+
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   style.css
+
+PS C:\Users\235\Desktop\project — копия\src> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   style.css
+ create mode 100644 style.css
+PS C:\Users\235\Desktop\project — копия\src> git status
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\235\Desktop\project — копия\src> git add -A
+PS C:\Users\235\Desktop\project — копия\src> git commit -a -m"second"
+[master 5137e86] second
+ 1 file changed, 10 insertions(+)
+PS C:\Users\235\Desktop\project — копия\src> git log
+commit 5137e868dd1c27ce393e7963aedc3a13c1abdb35 (HEAD -> master)
+
+    second
+
+commit 881910f1d367a38a7cc22a1e325fd98071818041
+Date:   Wed Feb 9 21:28:23 2022 +0300
+
+    first commit
+PS C:\Users\235\Desktop\project — копия\src> C:/Users/235/Desktop/project - копия/src/.git
+/git remote add origin https://github.com/Janexxx1337/project.git
+C:/Users/235/Desktop/project : Имя "C:/Users/235/Desktop/project" не распознано как имя к 
+омандлета, функции, файла сценария или выполняемой программы. Проверьте правильность напи 
+сания имени, а также наличие и правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ C:/Users/235/Desktop/project — копия/src/.git/git remote add origin h ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:/Users/235/Desktop/project:String) [],   
+   CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+PS C:\Users\235\Desktop\project — копия\src> git remote add origin https://github.com/Jane
+xxx1337/project.git
+fatal: helper error (-1): User cancelled dialog.
+remote: Invalid username or password.
+PS C:\Users\235\Desktop\project — копия\src> git push -u origin maingit push -u origin mai
+ngit push -u origin maingit push -u origin maigit push -u origin mains
+error: src refspec maingit does not match any
+error: src refspec origin does not match any
+error: src refspec origin does not match any
+error: src refspec maingit does not match any
+error: src refspec push does not match any
+error: src refspec origin does not match any
+error: src refspec maigit does not match any
+error: src refspec push does not match any
+error: src refspec origin does not match any
+error: src refspec mains does not match any
+error: failed to push some refs to 'https://github.com/Janexxx1337/project.git'
+PS C:\Users\235\Desktop\project — копия\src> git push -u origin main
+error: failed to push some refs to 'https://github.com/Janexxx1337/project.git'
+PS C:\Users\235\Desktop\project — копия\src> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Janexxx1337/project.git'
+PS C:\Users\235\Desktop\project — копия\src> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Janexxx1337/project.git'
+PS C:\Users\235\Desktop\project — копия\src> git remote add origin https://github.com/Jane
+PS C:\Users\235\Desktop\project — копия\src> git branch -M main
+PS C:\Users\235\Desktop\project — копия\src> git push -u origin main
+info: please complete authentication in your browser...
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 547 bytes | 273.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Janexxx1337/project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\235\Desktop\project — копия\src> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        script.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\235\Desktop\project — копия\src> git add -A
+PS C:\Users\235\Desktop\project — копия\src> git commit -a -m"add script"[main 9d1b94d] add script
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 script.js
+PS C:\Users\235\Desktop\project — копия\src> git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 224 bytes | 224.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Janexxx1337/project.git
+   5137e86..9d1b94d  main -> main
+PS C:\Users\235\Desktop\project — копия\src> 
+
+ Содержимое сеанса восстановлено из 09.02.2022 в 22:13:07 
+
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Попробуйте новую кроссплатформенную оболочку PowerShell (https://aka.ms/pscore6)
+
+PS C:\Users\235\Desktop\project — копия\src> 

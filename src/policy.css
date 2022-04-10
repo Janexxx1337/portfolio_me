@@ -1,0 +1,16 @@
+.wrapper {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 100px 0 100px;
+    letter-spacing: 2px;
+    height: 100vh;
+}
+
+
+.first {
+    margin-bottom: 25px;
+}
+
+.two {
+    margin-top: 0px;
+}
