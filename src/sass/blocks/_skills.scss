@@ -17,9 +17,10 @@
         margin-top: 60px;
         padding: 0 10px;
         display: grid;
-        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(3, 370px);
         grid-auto-rows: minmax(270px, auto);
         gap: 13px;
+       align-content: center;
     }
     &__item {
         border: 1px solid black;

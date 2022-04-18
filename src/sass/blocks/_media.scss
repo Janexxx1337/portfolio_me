@@ -16,8 +16,14 @@
 
     .promo {
         &__photo {
-            width: 550px;
+            width: 500px;
             right: 0;
+        }
+
+        .title {
+            &_fz48 {
+                font-size: 40px;
+            }
         }
 
         }
@@ -82,10 +88,14 @@
         max-width: 720px;
     }
 
+
     .promo {
         &__photo {
-           display: none;
+            display: none;
         }
+    }
+
+   
     }
     .title {
         &_fz36 {
@@ -97,25 +107,10 @@
     .divider {
         margin: 15px auto 0 auto;
     }
-    .about {
-        &__wrapper {
-            grid-template-columns: 300px 380px;
-        }
-        &__skills {
-            grid-template-columns: 380px;
-            grid-auto-rows: minmax(115px,auto);
-            &-item {
-                grid-template-columns: 40px 320px;
-                column-gap: 20px;
-            }
-        }
-    }
-    .resume {
-        &__wrapper {
-            column-gap: 60px;
-            grid-template-columns: repeat(2,320px);
-        }
-    }
+    
+    
+  
+  
     .skills {
         &__items {
             padding: 0 20px;
@@ -130,16 +125,9 @@
             }
         }
     }
-    .price {
-        &__wrapper {
-            grid-template-columns: repeat(auto-fit, 350px);
-            padding: 0;
-        }
-    }
+   
     .contacts {
-        &__wrapper {
-            grid-template-columns: 300px 400px;
-        }
+     
         &__form {
             grid-template: 45px 190px 45px / repeat(2, 195px);
         }
@@ -148,7 +136,7 @@
             line-height: 16px;
         }
     }
-}
+
 
 @media (max-width: 768px) {
     .container {
@@ -211,13 +199,7 @@
     .portfolio {
         padding-top: 40px;
     }
-    .price {
-        padding-top: 40px;
-        &__wrapper {
-            margin-top: 20px;
-            justify-content: center;
-        }
-    }
+
     .contacts {
         padding-top: 40px;
         &__photo {
