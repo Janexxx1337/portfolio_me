@@ -30,7 +30,7 @@
 
     &__btns {
         display: flex;
-        height: 150px;
+        height: 200px;
         width: 500px;
       align-items: center;
       justify-content: space-between;
@@ -54,10 +54,11 @@
         color: #fff;
         border-radius: 50px;
         font-size: 18px;
+        margin-top: 3px;
+    }
 
         &-promo {
             height: 50px;
-            box-shadow: none;
             padding: 12px 55px;
             width: 220px;
             color: #000;
@@ -68,4 +69,3 @@
     }
 
 
-}
