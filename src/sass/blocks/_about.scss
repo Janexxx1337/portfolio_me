@@ -1,5 +1,5 @@
 .about {
-    padding-top: 50px;
+    padding-top: 150px;
     &__wrapper {
         display: grid;
         grid-template-columns: 400px 670px;
@@ -9,7 +9,6 @@
         row-gap: 40px;
     }
     &__photo {
-       
         grid-row: 1/2;
         img {
             object-fit: cover;

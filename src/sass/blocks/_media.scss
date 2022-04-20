@@ -1,12 +1,13 @@
-@media (max-width: 1439px) {
+@media (max-width: 1449px) {
     .sidepanel {
         display: none;
     }
 
     .promo {
         &__photo {
-            width: 550px;
-            right: 0;
+            width: 500px;
+            right: 10%;
+            top: 13%;
         }
 }
 @media (max-width: 1200px) {
@@ -135,6 +136,19 @@
             padding: 8px 25px;
             line-height: 16px;
         }
+
+        &__photo {
+            img {
+                width: 90%;
+            }
+        }
+
+        .about {
+            &__photo {
+                background: url(../../img/about_v.min.png);
+            }
+        }
+
     }
 
 
@@ -168,6 +182,13 @@
             &-item {
                 grid-template-columns: 40px 200px;
                 column-gap: 20px;
+            }
+        }
+
+        &__photo {
+            img {
+                height: 120%;
+                transform: translateY(-20%);
             }
         }
     }
@@ -238,6 +259,7 @@
         }
     }
     .promo {
+        padding-top: 100px;
         &__btns {
             margin-top: 30px;
             flex-direction: column;
@@ -259,6 +281,11 @@
         }
         &__skills {
             grid-template-columns: 1fr;
+        }
+
+        &__photo {
+            height: 120%;
+           
         }
     }
     .resume {
