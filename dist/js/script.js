@@ -23,3 +23,19 @@ counters.forEach( (item, i) => {
 
 
 
+
+
+$('form').submit(function(){
+	$.post(
+		'mailer/smart.php', // адрес обработчика
+		 $("form").serialize(), // отправляемые данные  		
+		
+		function(msg) { // получен ответ сервера  
+			$('form').hide('slow');
+			$('#my_message').html(msg);
+		}
+	);
+	return false;
+});
+
+
